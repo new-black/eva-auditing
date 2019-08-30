@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="c:\code\eva\src\EVA.Core\Auditing\Compliancies\NF525\NF525Models.cs" Link="EVA.Core.Auditing.Compliancies.NF525\NF525Models.cs" />
+    <Compile Include="c:\code\eva\src\EVA.Core\Auditing\Compliancies\NF525\NF525Signature.cs" Link="EVA.Core.Auditing.Compliancies.NF525\NF525Signature.cs" />
+    <Compile Include="c:\code\eva\src\EVA.Framework\Extensions\GenericExtensions.cs" Link="EVA.Framework\GenericExtensions.cs" />
+    <Compile Include="c:\code\eva\src\EVA.Framework\Extensions\NumberExtensions.cs" Link="EVA.Framework\NumberExtensions.cs" />
+    <Compile Include="c:\code\eva\src\EVA.Framework\Extensions\StringExtensions.cs" Link="EVA.Framework\StringExtensions.cs" />
+    <Compile Include="c:\code\eva\src\EVA.Framework\Extensions\TypeExtensions.cs" Link="EVA.Framework\TypeExtensions.cs" />
+    <Compile Include="c:\code\eva\src\EVA.Framework\Helpers\TypeHelper.cs" Link="EVA.Framework\TypeHelper.cs" />
+    <Compile Include="c:\code\eva\src\EVA.Framework\Plugins\EVAPluginAssemblyAttribute.cs" Link="EVA.Framework\EVAPluginAssemblyAttribute.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Flurl.Http" Version="2.4.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="EVA.Core.Auditing.Compliancies.NF525\" />
+    <Folder Include="EVA.Framework\" />
+  </ItemGroup>
+
+</Project>
