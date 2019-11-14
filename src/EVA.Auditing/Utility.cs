@@ -2,6 +2,7 @@
 using Flurl.Http;
 using Newtonsoft.Json;
 using System;
+using System.IO;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -15,7 +16,12 @@ namespace EVA.Auditing
 
       try
       {
-        return result.Success(JsonConvert.DeserializeObject<ArchiveDto>(Encoding.Unicode.GetString(await url.GetBytesAsync())));
+        using (var sr = new StreamReader(await url.GetStreamAsync(), Encoding.Unicode))
+        using (var j = new JsonTextReader(sr))
+        {
+          var serializer = new JsonSerializer();
+          return result.Success(serializer.Deserialize<ArchiveDto>(j));
+        }
       }
       catch (UriFormatException)
       {
