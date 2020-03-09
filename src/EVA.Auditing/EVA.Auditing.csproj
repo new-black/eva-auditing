@@ -6,14 +6,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="c:\code\eva\src\EVA.Core\Auditing\Compliancies\NF525\NF525Models.cs" Link="EVA.Core.Auditing.Compliancies.NF525\NF525Models.cs" />
-    <Compile Include="c:\code\eva\src\EVA.Core\Auditing\Compliancies\NF525\NF525Signature.cs" Link="EVA.Core.Auditing.Compliancies.NF525\NF525Signature.cs" />
-    <Compile Include="c:\code\eva\src\EVA.Framework\Extensions\GenericExtensions.cs" Link="EVA.Framework\GenericExtensions.cs" />
-    <Compile Include="c:\code\eva\src\EVA.Framework\Extensions\NumberExtensions.cs" Link="EVA.Framework\NumberExtensions.cs" />
-    <Compile Include="c:\code\eva\src\EVA.Framework\Extensions\StringExtensions.cs" Link="EVA.Framework\StringExtensions.cs" />
-    <Compile Include="c:\code\eva\src\EVA.Framework\Extensions\TypeExtensions.cs" Link="EVA.Framework\TypeExtensions.cs" />
-    <Compile Include="c:\code\eva\src\EVA.Framework\Helpers\TypeHelper.cs" Link="EVA.Framework\TypeHelper.cs" />
-    <Compile Include="c:\code\eva\src\EVA.Framework\Plugins\EVAPluginAssemblyAttribute.cs" Link="EVA.Framework\EVAPluginAssemblyAttribute.cs" />
+    <Compile Include="d:\repos\eva\src\EVA.Core\Auditing\Compliancies\NF525\NF525Models.cs" Link="EVA.Core.Auditing.Compliancies.NF525\NF525Models.cs" />
+    <Compile Include="d:\repos\eva\src\EVA.Core\Auditing\Compliancies\NF525\NF525Signature.cs" Link="EVA.Core.Auditing.Compliancies.NF525\NF525Signature.cs" />
+    <Compile Include="d:\repos\eva\src\EVA.Framework\Extensions\GenericExtensions.cs" Link="EVA.Framework\GenericExtensions.cs" />
+    <Compile Include="d:\repos\eva\src\EVA.Framework\Extensions\NumberExtensions.cs" Link="EVA.Framework\NumberExtensions.cs" />
+    <Compile Include="d:\repos\eva\src\EVA.Framework\Extensions\StringExtensions.cs" Link="EVA.Framework\StringExtensions.cs" />
+    <Compile Include="d:\repos\eva\src\EVA.Framework\Extensions\TypeExtensions.cs" Link="EVA.Framework\TypeExtensions.cs" />
+    <Compile Include="d:\repos\eva\src\EVA.Framework\Helpers\TypeHelper.cs" Link="EVA.Framework\TypeHelper.cs" />
+    <Compile Include="d:\repos\eva\src\EVA.Framework\Plugins\EVAPluginAssemblyAttribute.cs" Link="EVA.Framework\EVAPluginAssemblyAttribute.cs" />
   </ItemGroup>
 
   <ItemGroup>
