@@ -6,7 +6,7 @@ namespace EVA.Auditing.Helpers
     {
         public static decimal RoundFor(this decimal amount, string currencyID)
         {
-            return Math.Round(amount, Currency.Get(currencyID).Precision, MidpointRounding.AwayFromZero);
+            return Math.Round(amount, 2, MidpointRounding.AwayFromZero);
         }
     }
 }
