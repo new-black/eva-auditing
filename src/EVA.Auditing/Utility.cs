@@ -1,4 +1,4 @@
-﻿using EVA.Core.Auditing.Compliancies.NF525;
+﻿using EVA.Auditing.NF525;
 using Flurl.Http;
 using Newtonsoft.Json;
 using System;
@@ -69,7 +69,7 @@ namespace EVA.Auditing
 
       try
       {
-        await NF525Signature.Verify(archive, publicKey, (dto) => result.Error(dto.ToString()).AsTask());
+        await NF525Signature.Verify("EUR" ,archive, publicKey, (dto) => result.Error(dto.ToString()).AsTask());
       }
       catch
       {
