@@ -2,7 +2,7 @@
 using DocumentFormat.OpenXml.Packaging;
 using DocumentFormat.OpenXml.Spreadsheet;
 using EVA.Auditing;
-using EVA.Core.Auditing.Compliancies.NF525;
+using EVA.Auditing.NF525;
 using System;
 using System.Collections.Generic;
 using System.IO;

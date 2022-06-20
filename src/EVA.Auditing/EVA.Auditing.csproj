@@ -1,19 +1,20 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
     <LangVersion>latest</LangVersion>
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="d:\repos\eva\src\EVA.Core\Auditing\Compliancies\NF525\NF525Models.cs" Link="EVA.Core.Auditing.Compliancies.NF525\NF525Models.cs" />
-    <Compile Include="d:\repos\eva\src\EVA.Core\Auditing\Compliancies\NF525\NF525Signature.cs" Link="EVA.Core.Auditing.Compliancies.NF525\NF525Signature.cs" />
+    <Compile Include="d:\repos\eva\src\EVA.Auditing\NF525\NF525Models.cs" Link="EVA.Core.Auditing.Compliancies.NF525\NF525Models.cs" />
+    <Compile Include="d:\repos\eva\src\EVA.Auditing\NF525\NF525Signature.cs" Link="EVA.Core.Auditing.Compliancies.NF525\NF525Signature.cs" />
     <Compile Include="d:\repos\eva\src\EVA.Framework\Extensions\GenericExtensions.cs" Link="EVA.Framework\GenericExtensions.cs" />
     <Compile Include="d:\repos\eva\src\EVA.Framework\Extensions\NumberExtensions.cs" Link="EVA.Framework\NumberExtensions.cs" />
     <Compile Include="d:\repos\eva\src\EVA.Framework\Extensions\StringExtensions.cs" Link="EVA.Framework\StringExtensions.cs" />
     <Compile Include="d:\repos\eva\src\EVA.Framework\Extensions\TypeExtensions.cs" Link="EVA.Framework\TypeExtensions.cs" />
     <Compile Include="d:\repos\eva\src\EVA.Framework\Helpers\TypeHelper.cs" Link="EVA.Framework\TypeHelper.cs" />
     <Compile Include="d:\repos\eva\src\EVA.Framework\Plugins\EVAPluginAssemblyAttribute.cs" Link="EVA.Framework\EVAPluginAssemblyAttribute.cs" />
+	<Compile Include="d:\repos\eva\src\EVA.Framework\Maybe.cs" Link="EVA.Framework\Maybe.cs" />
   </ItemGroup>
 
   <ItemGroup>
