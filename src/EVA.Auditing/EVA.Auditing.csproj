@@ -8,9 +8,11 @@
   <ItemGroup>
     <Compile Include="..\..\..\eva\src\EVA.Auditing\NF525\NF525Models.cs" Link="EVA.Core.Auditing.Compliancies.NF525\NF525Models.cs" />
     <Compile Include="..\..\..\eva\src\EVA.Auditing\NF525\NF525Signature.cs" Link="EVA.Core.Auditing.Compliancies.NF525\NF525Signature.cs" />
-    <Compile Include="..\..\..\eva\src\EVA.Framework\Extensions\GenericExtensions.cs" Link="EVA.Framework\GenericExtensions.cs" />
+	<Compile Include="..\..\..\eva\src\EVA.Auditing\NF525\NF525Constants.cs" Link="EVA.Core.Auditing.Compliancies.NF525\NF525Constants.cs" />
+	<Compile Include="..\..\..\eva\src\EVA.Framework\Extensions\GenericExtensions.cs" Link="EVA.Framework\GenericExtensions.cs" />
     <Compile Include="..\..\..\eva\src\EVA.Framework\Extensions\NumberExtensions.cs" Link="EVA.Framework\NumberExtensions.cs" />
-    <Compile Include="..\..\..\eva\src\EVA.Framework\Extensions\StringExtensions.cs" Link="EVA.Framework\StringExtensions.cs" />
+	<Compile Include="..\..\..\eva\src\EVA.Framework\Extensions\StringExtensions.cs" Link="EVA.Framework\StringExtensions.cs" />
+	<Compile Include="..\..\..\eva\src\EVA.Framework\Extensions\EnumerableExtensions.cs" Link="EVA.Framework\EnumerableExtensions.cs" />
     <Compile Include="..\..\..\eva\src\EVA.Framework\Extensions\TypeExtensions.cs" Link="EVA.Framework\TypeExtensions.cs" />
     <Compile Include="..\..\..\eva\src\EVA.Framework\Helpers\TypeHelper.cs" Link="EVA.Framework\TypeHelper.cs" />
     <Compile Include="..\..\..\eva\src\EVA.Framework\Plugins\EVAPluginAssemblyAttribute.cs" Link="EVA.Framework\EVAPluginAssemblyAttribute.cs" />
@@ -20,11 +22,6 @@
   <ItemGroup>
     <PackageReference Include="Flurl.Http" Version="2.4.2" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="EVA.Core.Auditing.Compliancies.NF525\" />
-    <Folder Include="EVA.Framework\" />
   </ItemGroup>
 
 </Project>
