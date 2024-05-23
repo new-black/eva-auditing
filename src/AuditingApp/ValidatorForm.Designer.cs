@@ -1,6 +1,6 @@
 ﻿namespace AuditingApp
 {
-    partial class Form1
+    partial class ValidatorForm
     {
         /// <summary>
         ///  Required designer variable.
@@ -135,7 +135,7 @@
             this.btnClose.UseVisualStyleBackColor = true;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
-            // Form1
+            // NF525 Fiscal Archive Validator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -152,9 +152,9 @@
             this.Controls.Add(this.tbProgress);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "Form1";
+            this.Name = "NF525 Fiscal Archive Validator";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
-            this.Text = "Form1";
+            this.Text = "NF525 Fiscal Archive Validator";
             this.ResumeLayout(false);
             this.PerformLayout();
 

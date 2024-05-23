@@ -11,11 +11,11 @@ using System.Windows.Forms;
 
 namespace AuditingApp
 {
-    public partial class Form1 : Form
+    public partial class ValidatorForm : Form
     {
         private List<EventDto> _fiscalArchiveEvents;
 
-        public Form1()
+        public ValidatorForm()
         {
             InitializeComponent();
         }
@@ -178,6 +178,8 @@ namespace AuditingApp
 
                 if (loadSuccessfull)
                 {
+                    tbProgress.Text += "## VALIDATION RESULTS ##" + Environment.NewLine;
+
                     // Validate
                     var validationResult = Utility.Verify(fiscalArchiveData, publicKeyData).Result;
                     if (!validationResult.IsSuccessful)
@@ -188,16 +190,20 @@ namespace AuditingApp
                             tbProgress.Text += $"- {error}" + Environment.NewLine;
                         }
                     }
+                    else
+                    {
+                        tbProgress.Text += "Fiscal archive validated successfully!" + Environment.NewLine;
+                    }
 
                     this._fiscalArchiveEvents = fiscalArchiveData.Events;
                     loadSuccessfull = true;
                 }
             }
-            catch(Exception excep)
+            catch(Exception ex)
             {
                 var exceptionId = DateTime.Now.ToString("yyyyMMddhhmmss") + Guid.NewGuid().ToString().Split('-')[0];
 
-                File.AppendAllLines("ErrorLog.log", new List<string>() { $"{DateTime.Now:yyyy-MM-dd hh:mm:ss};UnexpectedError;{excep.Message}" });
+                File.AppendAllLines("ErrorLog.log", new List<string>() { $"{DateTime.Now:yyyy-MM-dd hh:mm:ss};UnexpectedError;{ex.Message}" });
                 tbProgress.Text += $"An unexpected error occured. See error log for details (exceptionId '{exceptionId}')";
             }
             finally
