@@ -17,6 +17,8 @@
 		<Compile Include="..\..\..\eva\src\EVA.Framework\Extensions\TypeExtensions.cs" Link="EVA.Framework\TypeExtensions.cs" />
 		<Compile Include="..\..\..\eva\src\EVA.Framework\Helpers\TypeHelper.cs" Link="EVA.Framework\TypeHelper.cs" />
 		<Compile Include="..\..\..\eva\src\EVA.Framework\Maybe.cs" Link="EVA.Framework\Maybe.cs" />
+		<Compile Include="..\..\..\eva\src\EVA.Framework\API\ICustomRequestValidation.cs" Link="EVA.Framework\ICustomRequestValidation.cs" />
+		<Compile Include="..\..\..\eva\src\EVA.Framework\Caching\StringInterner.cs" Link="EVA.Framework\StringInterner.cs" />
 	</ItemGroup>
 
 	<ItemGroup>
